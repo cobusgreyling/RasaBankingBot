@@ -398,3 +398,14 @@ data/test/lookup_tables/branches.txt
 - I need to do a [Forex](transaction)	
 
 
+## intent:exchange
+- I want to [change](transaction) [US dollars]{"entity": "currency", "role": "change_from"} to [Euros]{"entity": "currency", "role": "change_to"} on [Friday](date_time)
+- Can I [exchange](transaction) [euros]{"entity": "currency", "role": "change_from"} for [Rand]{"entity": "currency", "role": "change_to"} on [Saturday](date_time)
+- give me a rate to [change](transaction) [pounds sterling]{"entity": "currency", "role": "change_from"} for [Japanese Yen]{"entity": "currency", "role": "change_to"} on [Monday](date_time)
+- what are rates to [convert](transaction) [Australian Dollar]{"entity": "currency", "role": "change_from"} for [Russian Ruble]{"entity": "currency", "role": "change_to"} on [next week Thursday](date_time)
+- I want to [change](transaction) [US dollars]{"entity": "currency", "role": "change_from"} to [Canadian dollar]{"entity": "currency", "role": "change_to"} on [Friday](date_time)
+
+## intent:tiers
+- [Silver]{"entity": "tiers", "group": "1"} accounts have lower interest for saving than [Platinum]{"entity": "tiers", "group": "2"} 
+- [Gold]{"entity": "tiers", "group": "1"} accounts have lower interest for saving than [black]{"entity": "tiers", "group": "2"}
+- [Bronze]{"entity": "tiers", "group": "1"} accounts have lower interest for saving than [Platinum]{"entity": "tiers", "group": "2"}
